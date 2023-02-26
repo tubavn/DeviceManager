@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_audio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="devicemanager.com.AudioActivity">
+
+    <Button
+        android:text="On"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="49dp"
+        android:id="@+id/buttonOn" />
+
+    <Button
+        android:text="Off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="113dp"
+        android:id="@+id/buttonOff" />
+</LinearLayout>

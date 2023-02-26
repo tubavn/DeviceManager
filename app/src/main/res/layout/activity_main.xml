@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devicemanager.com.MainActivity">
+
+    <Button
+        android:text="Wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:id="@+id/buttonWifi" />
+    <Button
+        android:text="3G"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="263dp"
+        android:id="@+id/button3G" />
+
+    <Button
+        android:text="LCD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="71dp"
+        android:id="@+id/buttonLCD" />
+
+    <Button
+        android:text="Audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="199dp"
+        android:id="@+id/buttonAudio" />
+
+    <Button
+        android:text="GPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="327dp"
+        android:id="@+id/buttonGPS" />
+
+</LinearLayout>
